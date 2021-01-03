@@ -1,5 +1,6 @@
 # Quiz-javascript
  <h3>Projeto web de um quiz utilizando html, css e javascript</h3>
+ <img src="imagens/tela2.png"/>
  <figure>
     <img src="imagens/tela1.png"/>
 	 <figcaption>Exemplo de acertos</figcaption>
