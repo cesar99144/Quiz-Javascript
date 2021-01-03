@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/quiz.css">
+        <title></title>
+        <script type="text/javascript" src="javascript/quiz-script.js"></script>
+    </head>
+    <body>
+        <div class="quiz-area">
+            <div class="quiz-header">
+                <div class="numero-questao">
+                    <label id="quantidade-questoes"></label>
+                </div>
+                <div id="timer" class="timer">
+                    <div class="timer-text">Tempo</div>
+                    <div id="timer-sec" class="timer-sec"></div>
+                </div>
+            </div>
+            <div class="quiz-perguntas">
+                <div class="descricao-questao">
+                    <h3 id="title-questao"></h3>
+                </div>
+                <div class="opcoes-list">
+                    <div id="a" class="options" onclick="pegarRespostaUsuario('a', 9)">
+                        <span></span>
+                    </div>
+                    <div id="b" class="options" onclick="pegarRespostaUsuario('b', 10)">
+                        <span></span>
+                    </div>
+                    <div id="c" class="options" onclick="pegarRespostaUsuario('c', 11)">
+                        <span></span>
+                    </div>
+                    <div id="d" class="options" onclick="pegarRespostaUsuario('d', 12)">
+                        <span></span>
+                    </div>
+                    
+                </div>
+                <div class="status">
+                    <div class="status-resultado">
+                       <div id="acertos" class="acertos"></div>
+                       <div id="erros" class="erros"></div>
+                    </div>
+                    <div class="proxima">
+                        <button id="result" class="button" onclick="resultadoFinal()" type="button">Resultado</button>
+                        <button id="next" class="button" onclick="proximaQuestao()" type="button">Proxima</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

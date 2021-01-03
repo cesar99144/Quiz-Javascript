@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    text-align: center;
+}
+
+body{
+
+    background: #007bff;
+}
+
+.principal{
+
+    margin-top: 150px;
+}
+
+h3{
+    color: white;
+    font-family: serif;
+    font-size: 19pt;
+}
+
+.opcoes-butoes{
+
+    margin-top: 90px;
+}
+
+input#iniciar{
+
+    background: orange;
+    font-size: 15pt;
+    font-family: serif;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    width: 260px;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}

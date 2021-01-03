@@ -1,0 +1,179 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	margin: 0;
+	font-size: 16px;
+	background-color: #007bff;
+}
+
+.quiz-area{
+
+	width: 650px;
+	margin: auto;
+	background: white;
+	margin-top: 5%;
+	height: 460px;
+	border-radius: 5px;
+}
+
+/*.quiz-header{
+
+	box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.1);
+	padding: 0px 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 70px;
+}*/
+
+.quiz-header{
+
+	height: 70px;
+	padding: 0 30px;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 5px 5px 0 0;
+	box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.1);
+}
+
+label#quantidade-questoes{
+
+	font-size: 17px;
+}
+
+h3#title-questao{
+
+	font-size: 17pt;
+}
+
+.timer{
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 145px;
+	height: 45px;
+	background: #cce5ff;
+	border: 1px solid #b8daff;
+	border-radius: 5px;
+	padding: 0 8px;
+	font-size: 17px;
+}
+
+.timer-sec{
+
+	font-size: 18px;
+	font-weight: 500;
+	background: #343a40;
+	height: 30px;
+	width: 55px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 5px;
+	border: 1px solid #343a40;
+}
+
+.quiz-perguntas{
+
+	padding: 25px 30px 20px 30px;
+
+
+}
+
+.descricao-questao{
+
+	font-size: 22px;
+	font-weight: 600px;
+}
+
+.opcoes-list{
+
+	padding: 20px 0;
+	display: block;
+
+}
+
+.options{
+
+	background: aliceblue;
+	border: 1px solid #84c5fe;
+	border-radius: 5px;
+	padding: 8px 15px;
+	margin-bottom: 15px;
+	font-size: 17px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+}
+
+.options:hover{
+
+	color: #004085;
+	background: #cce5ff;
+	border-color: #b8daff;
+
+}
+
+.button{
+
+	height: 40px;
+	padding 0 30px;
+	font-size: 18px;
+	font-weight: 400px;
+	border: none;
+	outline: none;
+	color: white;
+	background: #007bff;
+	border-radius: 5px;
+	border: 1px solid #007bff;
+	cursor: pointer;
+	width: 120px;
+}
+
+.button:hover{
+
+	background: #0263ca;
+}
+
+.status{
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.proxima{
+
+	display: flex;
+
+}
+
+div#acertos{
+
+	background: green;
+	color: white;
+	padding: 3px;
+}
+
+div#erros{
+
+	background: red;
+	color: white;
+	padding: 3px;
+}
+
+button#result{
+
+	background: orange;
+	border: 1px solid orange;
+	margin-left: 35px;
+	text-decoration: none;
+}
