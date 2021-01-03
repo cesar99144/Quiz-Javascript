@@ -15,7 +15,7 @@ var perguntas = [
      "correta":"d"
     },
      {"titulo":"Para que seja impresso em phyton um texto na tela, utilizamos:", 
-     "alternativa":["echo 'Texto';", "print(hello)", "System.out.println('Texto');", "printf('Hello World');"],
+     "alternativa":["echo 'Texto';", "print('hello')", "System.out.println('Texto');", "printf('Hello World');"],
      "correta":"b"
     },
     {"titulo":"Quais das seguintes linguagens não é obrigatório uso de ponto e vírgula ?", 
